@@ -1,0 +1,22 @@
+DEBUG = True
+
+REMOTE_DRIVER = True
+REMOTE_DRIVER_URL = 'http://localhost:4444'
+
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+LOAD_PAGE_RETRY = 5
+PROXY_API = ''
+
+ADDRS = [
+    '0x2352D20fC81225c8ECD8f6FaA1B37F24FEd450c9',
+    # '0x2352D20fC81225c8ECD8f6FaA1B37F24FEd450c9',
+]
+
+FAUCET_ADDR = '0x2352D20fC81225c8ECD8f6FaA1B37F24FEd450c9'
+FAUCET_CD = 24  # hours
+
+SNOWTRACE_PROXY = {
+    'http': '',
+    'https': '',
+}
+SLACK_WEBHOOK = ''
