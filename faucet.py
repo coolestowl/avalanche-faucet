@@ -35,9 +35,9 @@ def open_target_page(hins):
     hins.get('https://core.app/tools/testnet-faucet/?token=C')
 
 
-def debug_print(*msg):
+def debug_print(*msg, **kw):
     if config.DEBUG:
-        print(*msg)
+        print(*msg, **kw)
 
 
 def debug_screenshot(inst, filename):
