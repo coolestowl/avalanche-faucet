@@ -10,7 +10,7 @@ def get_51_proxy():
     for api in [config.PROXY_API]:
         try:
             resp = requests.get(api, headers={
-                'User-Agent': config.user_agent,
+                'User-Agent': config.USER_AGENT,
             }, timeout=(5, 5))
             obj = json.loads(resp.text)
             if len(obj['data']) > 0:
